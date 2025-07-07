@@ -1,0 +1,577 @@
+@font-face {
+  font-family: airbnb cereal app;
+  src: url(../fonts/AirbnbCereal_W_Bd.otf);
+}
+body {
+  color: #828297;
+  font-family: airbnb cereal app;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+/* ----------- general css start --------------------- */
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #060640;
+}
+p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.navbar-toggler {
+  border: none;
+}
+
+
+.navbar-brand img{
+  width: 100px;
+  height: 70px;
+
+}
+.navbar-nav {
+  font-weight: 400;
+  font-size: 16px;
+  color: #717171;
+}
+.fixed-top {
+  position: fixed;
+  top: -19px;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.header span,
+.footer-end span {
+  color: lightskyblue;
+}
+.social-icon span :hover {
+  transition: 1s;
+  color: rgb(46, 167, 160);
+}
+.nav-item {
+  padding-right: 10px;
+  color: #18191f;
+}
+.btn-1 {
+  margin-right: 30px;
+  color: #000000;
+  border: none;
+  background: none;
+}
+.bg {
+  background: #fff;
+  border-radius: 8px;
+}
+.banner span,
+.our-works span,
+.About-us span,
+.global span {
+  position: relative;
+}
+.banner span img {
+  position: absolute;
+  right: 28px;
+  top: -4px;
+}
+/* ----------- general css start --------------------- */
+/* -------------- form start ------------- */
+.do h2 {
+  margin-bottom: 0%;
+  color: #8a8484;
+}
+.td h3,
+.btn,
+.register-button,
+.btn,
+
+footer h3 {
+  font-size: 29px;
+  color: #ffffff;
+}
+.pt {
+  margin-top: 14px;
+}
+
+.btn {
+  display: inline-block;
+  border: 1px solid #06c;
+  box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 14px 40px;
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 15px;
+
+  background: #06c;
+}
+
+/* ------------ banner start -------------------- */
+header,
+.banner,
+.popular-package {
+  background-image: url(../images/Header.jpg);
+}
+.register-button {
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  padding: 16px 36px;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #060640;
+}
+
+
+.banner2 img{
+
+width: 725px;
+padding-left: 102px;
+border-radius: 4px;
+
+}
+
+.ideas .fa-solid {
+  background: #fff;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-left: 9px;
+  padding: 21px;
+}
+.suscribe h2,
+.popular-package h2 {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px; /* 122.222% */
+}
+.card {
+  margin-top: 62px;
+  padding: 20px;
+  border: none;
+  border-radius: 8px;
+}
+.card p {
+  color: #828297;
+  padding-right: 16px;
+}
+.icon {
+  position: relative;
+}
+.tap {
+  position: absolute;
+  right: 0%;
+}
+/* -------------- baner end ------------------- */
+/* ------------ our works start ----------------- */
+.box {
+  margin-top: 50px;
+  padding: 30px 20px 20px 30px;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0px 0px 50px 0px #e4e4ee;
+}
+.box h3 {
+  padding-top: 50px;
+}
+.box img,
+.after img {
+  background: #ecf9ff;
+  padding: 16px;
+  border-radius: 10px;
+}
+.our-works span img {
+  position: absolute;
+  right: 51px;
+  top: -8px;
+}
+/* ------------ our works end----------------- */
+.popular-package .text-img {
+  position: relative;
+  margin-left: 5px;
+}
+.popular-package .text-img-h1 {
+  position: absolute;
+  margin-top: -7px;
+  margin-left: 62px;
+}
+.popular-package .popular-heading-icon {
+  margin-bottom: -6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular-package .popular-carousal-icon {
+  background-color: #ffff;
+  padding: 8px;
+  border-radius: 8px;
+}
+.carusal-icon {
+  padding: 13px;
+  border-radius: 8px;
+}
+.popular-package .popular-heading-icon .carusal-icon:hover {
+  background-color: #00e5cc;
+  color: white;
+}
+.next-btn {
+  margin-left: -3px;
+}
+.popular-package .card {
+  background-color: #ecf9ff;
+  border: none;
+  margin-bottom: 73px;
+  border-radius: 10px;
+  border: 1px solid white !important;
+  border: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.popular-package .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+
+  cursor: pointer;
+}
+.popular-package .card h3 {
+  margin-top: 20px;
+  margin-left: 16px;
+  margin-bottom: 15px;
+}
+.popular-package .card .large-image {
+  padding: 16px;
+}
+.popular-package .card .short-image {
+  display: flex;
+  margin-left: -20px;
+}
+.popular-package .card .short-img-box {
+  display: flex;
+  justify-content: space-between;
+}
+.popular-package .card .short-img-box a {
+  color: #00e5cc !important;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 15px;
+  padding-top: 29px;
+}
+.popular-package h2 {
+  padding-top: 60px;
+}
+.popular-package .card p {
+  font-size: 14px;
+  padding-top: 29px;
+}
+/* ------------ scroll end ----------------- */
+/* ---------------------------- Subscrice newsletter css */
+.newsletter .container {
+  background-image: url(../images/Header.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 62px;
+}
+.newsletter {
+  padding: 50px;
+  position: relative;
+}
+.newsletter-img-position-2 {
+  position: absolute;
+  right: 70px;
+  top: 1px;
+}
+.newsletter p {
+  margin-bottom: 40px;
+}
+.newsletter-img-position {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 519px;
+  margin: 0 auto;
+}
+.newsletter .btn-position {
+  position: relative;
+}
+.newsletter .btn {
+  position: absolute;
+  top: 10px;
+  right: 7px;
+}
+.btn {
+  display: inline-block;
+  border: 1px solid #060640;
+  border-radius: 5px;
+  padding: 14px 40px;
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 15px;
+  background: #060640;
+}
+.newsletter input {
+  padding: 25px;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+}
+.newsletter h2 {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px; /* 122.222% */
+}
+/* ---------------------------- End Subscrice newsletter css */
+/* ------------ about us start----------------- */
+.About-us h2,
+.global h2,
+.our-works h2 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px;
+}
+.About-us span img {
+  position: absolute;
+  left: 6px;
+  top: -8px;
+}
+.after {
+  padding-top: 24px;
+  align-items: center;
+}
+.less {
+  padding-left: 16px;
+}
+/* ------------ about us end----------------- */
+/* ------------- global  start ------------------- */
+.global span img {
+  position: absolute;
+  left: 26px;
+  top: -8px;
+}
+.global p {
+  font-size: 15px;
+}
+
+.newsletter-img-position {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  max-width: 40px;
+  height: auto;
+}
+
+.newsletter-img-position-2 {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .newsletter-img-position {
+    position: static;
+    transform: none;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .newsletter-img-position-2 {
+    margin-top: 30px;
+  }
+}
+
+
+
+
+@media (max-width: 414px) {
+  .newsletter-img-position {
+    position: static;
+    transform: none;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .newsletter-img-position-2 {
+    visibility: hidden !important;
+  }
+
+
+.newsletter {
+    padding: 50px;
+    position: relative;
+    width: 432px;
+}
+
+.newsletter .btn {
+    position: absolute;
+    top: 82px;
+    right: 39px;
+}
+
+
+
+}
+
+
+
+
+/* ------------- footer start ------------------- */
+footer {
+ background-image: url(../images/Header.jpg);
+  padding-top: 50px;
+}
+footer img {
+  width: 190px;
+}
+footer h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2d16af;
+}
+footer p {
+  padding-top: 6px;
+  color: #212131;
+  font-size: 13px;
+}
+footer li {
+  color: #212131;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: start;
+}
+footer .social-icon {
+  padding-top: 18px;
+}
+footer .social-icon a {
+  border: 1px solid #212131;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  padding: 8px;
+  color: #212131;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+}
+.footer-end {
+  background-color: #060640;
+}
+.footer-end {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 414px) {
+
+
+footer{
+
+
+width:416px;
+
+
+}
+
+.footer-end{
+  width:416px;
+
+}
+
+
+
+}
+
+/* ------------- footer end ------------------- */
+
+
+
+
+/* Cv */
+
+.cv-img img{
+  width: 500px;
+}
+.cv-img{
+
+
+  padding-left: 368px;
+}
+
+.cv-btn{
+
+  padding-left: 368px;
+}
+
+.Cvv{ 
+
+  
+    background-color: #203e91; /* Green background */
+ 
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+  }
+  
+  /* Adding hover effect */
+  button:hover {
+    background-color: #262a86; /* Darker green on hover */
+  }
+  .Cvv a{
+    color: white;
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
